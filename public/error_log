@@ -1,0 +1,266 @@
+[26-Jun-2021 00:29:21 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'techzenc_techzen.users' doesn't exist in /home1/techzenc/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:326
+Stack trace:
+#0 /home1/techzenc/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(326): PDO->prepare('select * from `...')
+#1 /home1/techzenc/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home1/techzenc/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home1/techzenc/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(333): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home1/techzenc/public_html/vendor/laravel/framework/src/Illuminate/Database/Query in /home1/techzenc/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:27:25 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:28:41 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:29:09 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:29:23 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:29:25 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:29:27 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:29:38 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:29:50 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:30:03 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:30:25 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:33:16 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:33:19 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:34:26 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 19:35:20 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:44:05 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:44:06 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:44:06 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:44:11 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:44:12 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:44:24 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:44:55 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:44:56 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:46:16 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:47:08 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:47:48 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-Aug-2021 20:48:00 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[18-Sep-2021 17:26:16 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Sep-2021 16:41:05 Asia/Kolkata] PHP Notice:  PDO::__construct(): send of 158 bytes failed with errno=32 Broken pipe in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php on line 70
+[19-Sep-2021 16:41:14 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Sep-2021 16:41:14 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Sep-2021 16:41:14 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Sep-2021 16:41:14 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySql in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Sep-2021 18:32:36 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Sep-2021 13:15:50 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php on line 70
+[20-Sep-2021 14:49:01 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'techzenc_techzen'@'localhost' (using password: YES) in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connect in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Sep-2021 14:49:13 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'techzenc_techzen'@'localhost' (using password: YES) in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connect in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Sep-2021 15:14:52 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'techzenc_techzen'@'localhost' (using password: YES) in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connect in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Sep-2021 15:17:28 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: Packets out of order. Expected 0 received 1. Packet size=23 in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/D in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php on line 70
+[20-Sep-2021 15:19:51 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'techzenc_techzen'@'localhost' (using password: YES) in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connect in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php on line 70
+[20-Sep-2021 15:20:51 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connector in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Sep-2021 15:37:58 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'techzenc_techzen'@'localhost' (using password: YES) in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connect in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Sep-2021 15:39:32 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'techzenc_techzen'@'localhost' (using password: YES) in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#1 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'techzenc_techze...', 'H9}wBtaSGtNN', Array)
+#2 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connect in /home1/techzenc/oscco.techzen.co.ke/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Oct-2021 11:56:46 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'laptodnc_oscco', 'tpdq$XsqkuVi', Array)
+#1 /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'laptodnc_oscco', 'tpdq$XsqkuVi', Array)
+#2 /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connecti in /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Oct-2021 11:56:47 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'laptodnc_oscco', 'tpdq$XsqkuVi', Array)
+#1 /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'laptodnc_oscco', 'tpdq$XsqkuVi', Array)
+#2 /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connecti in /home/laptodnc/oscco.laptops254.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
